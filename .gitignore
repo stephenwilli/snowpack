@@ -29,7 +29,7 @@ wp-content/plugins/*
 error_log
 node_modules/
 package-lock.json
-wp-content/themes/snowpack/prod/*
+
 
 # ==============================================================
 # track all whitelisted files and directories below
@@ -39,5 +39,4 @@ wp-content/themes/snowpack/prod/*
 !README.md
 !favicon.ico
 !wp-content/themes/snowpack/
-!wp-content/themes/snowpack/prod/*.css.map
-!wp-content/themes/snowpack/prod/*.js.map
+
