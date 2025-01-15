@@ -1,0 +1,43 @@
+# ==============================================================
+# ignore everything in the root directory except wp-content
+# --------------------------------------------------------------
+/*
+!wp-content/
+
+# ==============================================================
+# ignore everything in wp-content except "plugins" and "themes"
+# --------------------------------------------------------------
+wp-content/*
+!wp-content/themes/
+
+# ==============================================================
+# ignore all plugins and themes unless listed below
+# --------------------------------------------------------------
+wp-content/themes/*
+wp-content/plugins/*
+
+# ==============================================================
+# ignore specific files or extensions anywhere they appear
+# --------------------------------------------------------------
+*.map
+*.log
+*.sql
+*.zip
+.DS_Store
+.cache
+.sass-cache
+error_log
+node_modules/
+package-lock.json
+wp-content/themes/snowpack/prod/*
+
+# ==============================================================
+# track all whitelisted files and directories below
+# --------------------------------------------------------------
+!.gitignore
+!.htaccess
+!README.md
+!favicon.ico
+!wp-content/themes/snowpack/
+!wp-content/themes/snowpack/prod/*.css.map
+!wp-content/themes/snowpack/prod/*.js.map
