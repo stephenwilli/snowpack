@@ -24,8 +24,7 @@ wp-content/plugins/*
 *.sql
 *.zip
 .DS_Store
-.cache
-.sass-cache
+.parcel-cache
 error_log
 node_modules/
 package-lock.json
