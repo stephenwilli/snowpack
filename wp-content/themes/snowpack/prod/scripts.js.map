@@ -1,1 +1,0 @@
-{"version":3,"sources":["scripts.js"],"names":["require"],"mappings":";;;AAAA,aAAAA,QAAA","file":"scripts.js","sourceRoot":"../dev","sourcesContent":["import './styles.scss';"]}

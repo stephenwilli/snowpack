@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,YAAA,CACA","file":"scripts.css","sourceRoot":"../dev","sourcesContent":["body {\n  height: 100vh;\n  background: blue;\n}"]}

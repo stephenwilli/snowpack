@@ -1,17 +1,16 @@
 {
   "name": "snowpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel watch dev/scripts.js --out-dir prod/",
-    "build": "parcel build dev/scripts.js --out-dir prod/"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
     "sass": "^1.83.4"
   }
 }
